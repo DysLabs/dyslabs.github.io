@@ -139,7 +139,8 @@
                             gpa=gpa/2;
                         }
                     }
-                    var last_gpa=$("#lastgpa").val();
+                    var last_gpa=Number($("#lastgpa").val());
+                    gpa=Number(gpa);
                     console.log("lastgpa"+last_gpa);
                     var added=gpa+last_gpa;
                     console.log("added"+added);
