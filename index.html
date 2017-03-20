@@ -141,7 +141,9 @@
                     }
                     var last_gpa=$("#lastgpa").val();
                     console.log("lastgpa"+last_gpa);
-                    var avg=(gpa+last_gpa)/2;
+                    var added=gpa+last_gpa;
+                    console.log("added"+added);
+                    var avg=added/2;
                     console.log("average: "+avg);
                     $("#avg").text(avg);
                     $("#gpa").text(gpa);
