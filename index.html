@@ -111,7 +111,7 @@
             }
             
             $(document).on('change','.g',function(){
-            var gpa=-1;
+            var gpa=0;
             var classes=0;
                $(".g").each(function(index,element) {
                     var j=index+1;
@@ -146,6 +146,8 @@
     </head>
     <body>
         <p>Your weighted GPA is <b><span id='gpa'>0</span></b>.</p>
+        <p>Your average GPA is <b><span id='avg'>0</span></b>.</p>
+        <p>Your last GPA: <input type="number" class="g" id="lastgpa"/></p>
         <form>
             1. <select id="cl1-weight" class="g">
                 <option value="s">Standard</option>
