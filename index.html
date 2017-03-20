@@ -120,6 +120,7 @@
                     // console.log("INITIAL "+j+" -- "+$("#cl"+j+"-weight"));
                     if (grade!=null && grade!=undefined && grade.val()!="" && grade.val()!=undefined) {
                         var this_gpa=0;
+                        var last_gpa=$("#lastgpa").val();
                         console.log(weight.val()+" : "+grade.val());
                         switch (weight.val()) {
                             case "s":
@@ -138,6 +139,8 @@
                             gpa=gpa/2;
                         }
                     }
+                    var avg=(gpa+last_gpa)/2;
+                    $("#avg").text(avg);
                     $("#gpa").text(gpa);
                     console.log("cycle complete, average gpa of "+gpa+" for "+classes+" classes")
                 });
