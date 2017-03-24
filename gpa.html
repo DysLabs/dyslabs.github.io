@@ -102,7 +102,7 @@
                     var weight=$("#cl"+j+"-weight");
                     var grade=$("#cl"+j+"-grade");
                     // console.log("INITIAL "+j+" -- "+$("#cl"+j+"-weight"));
-                    if (grade!=null && grade!=undefined && grade.val()!="" && grade.val()!=undefined) {
+                    if (grade!=null && grade!=undefined && grade.val()!="" && grade.val()!=undefined && gpa.val()>0) {
                         var this_gpa=0;
                         var last_gpa=$("#lastgpa").val();
                         console.log(weight.val()+" : "+grade.val());
@@ -122,6 +122,8 @@
                             gpa=gpa+this_gpa;
                             gpa=gpa/2;
                         }
+                    } else {
+                        console.log("class +"+j+" is blank");
                     }
                     var last_gpa=Number($("#lastgpa").val());
                     gpa=Number(gpa);
