@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
-<catalog>
+<rss version="2.0">
+  
+<channel>
+  <title>Dan's Angry Rants</title>
   <post>
     <title>National Health</title>
     <date>?</date>
     <source>https://dyslabs.github.io/blog/post/uno.post</source>
   </post>
-</catalog>
+</channel>
