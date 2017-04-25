@@ -25,6 +25,13 @@
         list-style-type: none;
       }
     </style>
+    <script>
+      function getFiles() {
+        var fs = require('fs');
+        var files = fs.readdirSync('posts/');
+        console.log(files);
+      }
+    </script>
   </head>
   <body>
     <div id="content">
