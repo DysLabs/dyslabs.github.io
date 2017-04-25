@@ -1,7 +1,7 @@
 
 <html>
   <head>
-    <title>Dan's Angry Ranting</title>
+    <title id="real-title">Dan's Angry Ranting</title>
     <link href="/The-Conquerors/assets/css/style.css?v=25749f75fa82e3266d8da15dc7ca74104790b9e6" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style>
@@ -43,10 +43,12 @@
        }
       };
       var source=getUrlParameter('source');
+      var title=getUrlParameter('title');
       console.log(source);
+      $("#title").html(title);
+      $("#real-title").html(title);
       $.get( source, function( data ){
         $( "#text" ).html( data );
-        alert( "Load was performed." );
       });
     </script>
   </head>
