@@ -28,7 +28,7 @@
     </style>
     <script>
       function loadPosts() {
-        var randomnumber = Math.floor(Math.random() * (10000 - 0 + 1)) + 0;
+        var randomNumber = Math.floor(Math.random() * (10000 - 0 + 1)) + 0;
         $.ajax({
           type: "GET" ,
           url: "posts.xml?"+randomNumber ,
