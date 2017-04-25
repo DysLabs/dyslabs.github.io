@@ -3,9 +3,13 @@
   
 <channel>
   <title>Dan's Angry Rants</title>
-  <post>
+  <link>dyslabs.github.io/blog</link>
+  <description>Angry rants from Dan</description>
+  <item>
     <title>National Health</title>
     <date>?</date>
     <source>https://dyslabs.github.io/blog/post/uno.post</source>
-  </post>
+    <link>https://dyslabs.github.io/blog/get_post.html?source=uno.post</link>
+    <description>A call for the nationalization of the healthcare industry</description>
+  </item>
 </channel>
