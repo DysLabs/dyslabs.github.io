@@ -1,14 +1,17 @@
 <?xml version="1.0"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   
 <channel>
+  <atom:link href="https://dyslabs.github.io/blog/posts.xml" rel="self" type="application/rss+xml" />
   <title>Dan's Angry Rants</title>
   <link>https://dyslabs.github.io/blog/</link>
   <description>Angry rants from Dan</description>
   <item>
     <title>National Health</title>
+    <guid isPermaLink="false">uno</guid>
     <link>https://dyslabs.github.io/blog/get_post.html?source=uno.post</link>
     <description>A call for the nationalization of the healthcare industry</description>
-    <pubDate>25 April 2017</pubDate>
+    <pubDate>Tue, 25 Apr 2017 06:36:54 +0000</pubDate>
   </item>
 </channel>
+</rss>
