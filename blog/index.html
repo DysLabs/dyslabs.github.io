@@ -27,14 +27,17 @@
       }
     </style>
     <script>
-      function getFiles() {
-        var fs = require('fs');
-        var files = fs.readdirSync('posts/');
-        console.log(files);
-      }
-      
       function loadPosts() {
-        var files=getFiles();
+        $.ajax({
+          type: "GET" ,
+          url: "posts.xml" ,
+          dataType: "xml" ,
+          success: function(xml) {
+            $(xml).find('post').each(function(){
+              $("#post-list").append('<li>' + $(this) + '</li>');  
+            }); 
+          }       
+        });
       }
       
       $(document).ready(function (){
@@ -49,7 +52,7 @@
       <div style="border:1px solid black;padding:20px;border-radius:25px;">
         <p>Behold.</p>
         <div id="posts" style="padding:20px;">
-          <button onclick="loadPosts()">Load</button>
+          <ul id="post-list"></ul>
         </div>
       </div>
     </div>
