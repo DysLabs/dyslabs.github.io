@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
 <catalog>
   <post>
+    <title>DOS</title>
+    <date>14 January 1997</date>
+    <source>https://dyslabs.github.io/blog/post/dos.post</source>
+  </post>
+  <post>
     <title>UNO</title>
     <date>13 January 1997</date>
-    <source>https://dyslabs.github.io/blog/post/uno.html</source>
+    <source>https://dyslabs.github.io/blog/post/uno.post</source>
   </post>
 </catalog>
