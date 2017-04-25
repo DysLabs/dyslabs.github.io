@@ -34,7 +34,7 @@
           dataType: "xml" ,
           success: function(xml) {
             $(xml).find('post').each(function(){
-              $("#post-list").append('<li>' + $(this) + '</li>');  
+              $("#post-list").append('<li>' + $(this).find('title') + '</li>');  
             }); 
           }       
         });
