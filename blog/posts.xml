@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<!--<rss version="2.0">-->
+<rss version="2.0">
   
 <channel>
   <title>Dan's Angry Rants</title>
-  <link>dyslabs.github.io/blog</link>
+  <link>https://dyslabs.github.io/blog/</link>
   <description>Angry rants from Dan</description>
   <item>
     <title>National Health</title>
