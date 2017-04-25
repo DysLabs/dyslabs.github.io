@@ -38,7 +38,7 @@
             $(xml).find('item').each(function(index){
               var title=$(this).find('title').text();
               var link=$(this).find('link').text();
-              var date=$(this).find('pubDate').text().
+              var date=$(this).find('pubDate').text();
               if (index!=0) {
                 $("#post-list").append('<br>');
               }
