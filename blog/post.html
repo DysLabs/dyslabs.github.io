@@ -48,7 +48,7 @@
       var title=getUrlParameter('title');
       console.log(source);
       $("#title").html(title);
-      $("#real-title").html(title);
+      $("#real-title").html(title+" / Dan's Rants");
       $.get( source, function( data ){
         $( "#text" ).html( data );
       });
@@ -58,6 +58,7 @@
   <body>
     <div id="content">
       <h1 style="text-align:center;" id="title"></h1>
+      <a href="/blog">Return to Index</a>
       <hr/>
       <div style="border:1px solid black;padding:20px;border-radius:25px;">
         <p id="text">Behold.</p>
