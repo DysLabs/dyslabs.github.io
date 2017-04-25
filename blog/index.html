@@ -38,7 +38,7 @@
               if (index!=0) {
                 $("#post-list").append('<br>');
               }
-              $("#post-list").append('<li><a href="post.html?'+randomNumber+'&title='+$(this).find('title').text()+'&source='+$(this).find('source').text()+randomNumber+'">' + $(this).find('title').text() + '</a><ul><li>Published '+$(this).find('date').text()+'</li></ul></li>');  
+              $("#post-list").append('<li><a href="post.html?'+randomNumber+'&title='+$(this).find('title').text()+'&source='+$(this).find('source').text()+'?'+randomNumber+'">' + $(this).find('title').text() + '</a><ul><li>Published '+$(this).find('date').text()+'</li></ul></li>');  
             }); 
           }       
         });
