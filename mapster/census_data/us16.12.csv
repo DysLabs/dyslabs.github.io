@@ -1,4 +1,4 @@
-,GEO.id,votes_dem_2016,votes_gop_2016,total_votes_2016,per_dem_2016,per_gop_2016,diff_2016,per_point_diff_2016,state_abbr,county_name,GEO.id2,total_votes_2012,votes_dem_2012,votes_gop_2012,county_fips,state_fips,per_dem_2012,per_gop_2012,diff_2012,per_point_diff_2012
+,GEO.id,votes_dem_2016,votes_gop_2016,total_votes_2016,per_dem_2016,per_gop_2016,diff_2016,per_point_diff_2016,state_abbr,county_name,GEO.id2,total_votes_2012,votes_dem_2012,votes_gop_2012,county_fips,state_fips,per_dem_2012,per_gop_2012 ,diff_2012,per_point_diff_2012
 0,2013,93003.0,130413.0,246588.0,0.37715947248041265,0.5288700180057424,37410,-0.15171054552532975,AK,Alaska,02013,,,,,,,,,
 1,2016,93003.0,130413.0,246588.0,0.37715947248041265,0.5288700180057424,37410,-0.15171054552532975,AK,Alaska,02016,,,,,,,,,
 2,2020,93003.0,130413.0,246588.0,0.37715947248041265,0.5288700180057424,37410,-0.15171054552532975,AK,Alaska,02020,,,,,,,,,
