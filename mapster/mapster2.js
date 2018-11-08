@@ -528,7 +528,7 @@ d3.select("#showStates").on("change", function() {
             path.style.stroke = "#000"
             path.style.strokeWidth = "1px"
             } else {
-                path.style.stroke = "#fff"
+                path.style.stroke = "#000"
             path.style.strokeWidth = "1px"
             }
         }
