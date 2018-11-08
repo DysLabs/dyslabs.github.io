@@ -524,8 +524,13 @@ d3.select("#showStates").on("change", function() {
             if (typeof(path) != "object") {
                 //    continue
             }
-            path.style.stroke = "#fff"
+            if (d3.select("#showCounties").node().checked) {
+            path.style.stroke = "#000"
             path.style.strokeWidth = "1px"
+            } else {
+                path.style.stroke = "#fff"
+            path.style.strokeWidth = "1px"
+            }
         }
     }
     else {
